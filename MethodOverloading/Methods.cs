@@ -20,20 +20,20 @@ namespace MethodOverloading
 			int sum = num1 + num2;
 			string result = "";
 			if (isTrue == true)
-            {
-                if (sum == 1)
-                {
+			{
+				if (sum == 1)
+				{
 					result = "1 dollar";
 				}
-                else
-                {
+				else
+				{
 					result = $"{sum} dollars";
 				}
-            }
-            else
-            {
+			}
+			else
+			{
 				result = "";
-            }
+			}
 			return result;
 		}
 	}
